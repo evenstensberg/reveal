@@ -110,5 +110,4 @@ export interface Image360Collection {
    * Find 360 images associated with an asset through CDF annotations
    */
   findImageAnnotations(filter: Image360AnnotationAssetFilter): Promise<Image360AnnotationAssetQueryResult[]>;
-
 }
